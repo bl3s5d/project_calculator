@@ -1,0 +1,29 @@
+CompileFlags:
+  Add:
+    - -std=c89
+    - -pedantic-errors
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Werror
+    - -Wconversion
+    - -Wsign-conversion
+    - -Wshadow
+    - -Wformat=2
+    - -Wundef
+    - -Wstrict-prototypes
+    - -Wmissing-prototypes
+    - -Wcast-qual
+    - -Wwrite-strings
+    - -Wswitch-enum
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - bugprone-*
+      - cert-*
+      - clang-analyzer-*
+      - misc-*
+      - portability-*
+      - readability-*
+    FastCheckFilter: Loose
