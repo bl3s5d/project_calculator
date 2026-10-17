@@ -53,3 +53,5 @@ desktop.ini
 # ===== SDL3, если вы копируете DLL рядом с exe =====
 SDL3.dll
 *.dll
+# Бинарник проекта
+game
